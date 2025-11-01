@@ -246,7 +246,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/ModernHTR.git
+git clone https://github.com/DilerFeed/ModernHTR.git
 cd ModernHTR
 
 # Create branch
@@ -276,11 +276,11 @@ git push origin feature/your-feature
 If you use ModernHTR in your research, please cite:
 
 ```bibtex
-@software{modernhtr2024,
+@software{modernhtr2025,
   title={ModernHTR: Modern Handwritten Text Recognition with PyTorch},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/yourusername/ModernHTR}
+  author={Hlib Ishchenko},
+  year={2025},
+  url={https://github.com/DilerFeed/ModernHTR}
 }
 ```
 
