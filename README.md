@@ -7,7 +7,11 @@
 
 **Modern, production-ready Handwritten Text Recognition (HTR) system built with PyTorch.**
 
-A complete, well-documented implementation of CNN+BiLSTM+CTC architecture for recognizing handwritten English text. Unlike older implementations, ModernHTR features automatic dataset downloading, comprehensive visualizations, and optimizations for Apple Silicon (M1/M2/M3).
+A complete, well-documented implementation of CNN+BiLSTM+CTC architecture for recognizing handwritten English text. Unlike older implementations, ModernHTR features automatic dataset downloading, comprehensive visualizations, and optimizations for Apple Silicon (M1–M4).
+
+<img width="3180" height="1970" alt="final_report" src="https://github.com/user-attachments/assets/942ca003-0432-4160-8e19-2b343dd0b8de" />
+
+<img width="2235" height="4485" alt="confusion_examples" src="https://github.com/user-attachments/assets/6b130f5f-0d2b-431b-9621-bb1e6d5fa8ce" />
 
 ---
 
