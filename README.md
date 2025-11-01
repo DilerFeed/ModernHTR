@@ -18,12 +18,12 @@ A complete, well-documented implementation of CNN+BiLSTM+CTC architecture for re
 | Feature | ModernHTR | SimpleHTR | CRNN | Other |
 |---------|-----------|-----------|------|-------|
 | **Auto Dataset Download** | ✅ | ❌ | ❌ | ❌ |
-| **Apple Silicon Optimization** | ✅ M1/M2/M3 | ❌ | ❌ | ❌ |
+| **Apple Silicon Optimization** | ✅ M1–M4 | ❌ | ❌ | ❌ |
 | **Comprehensive Visualizations** | ✅ 15+ plots | ⚠️ Basic | ❌ | ⚠️ Basic |
 | **Modern PyTorch (2.0+)** | ✅ | ❌ 1.x | ❌ Old | ⚠️ |
 | **Production Ready** | ✅ | ❌ | ⚠️ | ⚠️ |
 | **Well Documented** | ✅ | ⚠️ | ⚠️ | ⚠️ |
-| **Active Maintenance** | ✅ 2024 | ❌ 2019 | ❌ 2017 | ⚠️ |
+| **Active Maintenance** | ✅ 2025 | ❌ 2019 | ❌ 2017 | ⚠️ |
 
 ---
 
