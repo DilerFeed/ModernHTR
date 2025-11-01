@@ -1,0 +1,203 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+
+# ============================================
+# Virtual Environments
+# ============================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# ============================================
+# PyTorch Models & Checkpoints
+# ============================================
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.pickle
+
+# Keep only the model structure files
+!models/*.py
+
+# ============================================
+# Data (Large datasets)
+# ============================================
+data/iam/iam_words/
+data/iam/*.txt
+data/iam/words/
+
+# Keep only the README in data folder
+!data/README.md
+!data/iam/README.md
+
+# ============================================
+# Outputs (Generated during training)
+# ============================================
+outputs/models/*.pth
+outputs/models/*.pt
+outputs/visualizations/*.png
+outputs/visualizations/*.jpg
+outputs/logs/*.log
+outputs/*.json
+outputs/*.csv
+
+# Keep the directory structure
+!outputs/.gitkeep
+!outputs/models/.gitkeep
+!outputs/visualizations/.gitkeep
+!outputs/logs/.gitkeep
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+notebooks/
+
+# ============================================
+# IDE / Editor
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ============================================
+# macOS
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ============================================
+# Windows
+# ============================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================================
+# Testing
+# ============================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
+*.out
+
+# ============================================
+# Temporary files
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ============================================
+# Archives (if you accidentally download datasets)
+# ============================================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ============================================
+# Cache
+# ============================================
+.cache/
+*.cache
+
+# ============================================
+# Environment variables
+# ============================================
+.env
+.env.local
+.env.*.local
+
+# ============================================
+# Specific to this project
+# ============================================
+# Large trained models
+best_model.pth
+final_model.pth
+checkpoint_*.pth
+
+# Generated visualizations (can be regenerated)
+architecture_*.png
+training_history.png
+predictions.png
+confusion_examples.png
+final_report.png
+sample_images.png
+augmentations.png
+dataset_stats.png
+feature_maps.png
+model_architecture.png
+*_error_analysis.png
+character_confusion_analysis.png
+
+# Generated tables (can be regenerated)
+table*.csv
+final_test_results.json
+training_history.json
+
+# Dataset files (too large for git)
+words.txt
+words_new.txt
+
+# ============================================
+# Keep these important files
+# ============================================
+!README.md
+!LICENSE
+!requirements.txt
+!.gitignore
+!*.py
+!docs/*.md
+!RUN_M2.sh
+!GITHUB_SETUP.md
